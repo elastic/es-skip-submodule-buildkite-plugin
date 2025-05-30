@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export BUILDKITE_DISABLE_GIT_SUBMODULES=1
+export BUILDKITE_GIT_SUBMODULES=false
