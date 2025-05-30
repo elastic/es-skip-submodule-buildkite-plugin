@@ -1,5 +1,5 @@
 #!/bin/bash
 
-if [[ "${1:-}" == "submodule" ]]; then exit 1; fi
+if [[ "${1:-}" == "submodule" ]]; then exit 0; fi
 
 "$ES_ORIGINAL_GIT_BINARY" "${@}"
